@@ -19,7 +19,7 @@ import useStorage from '../hooks/storage';
 import {getKey} from "../lib/util";
 
 function Todo() {
-  const [items, putItems] = React.useState([
+  const [items, putItems] = useState([
       /* テストコード 開始 */
     { key: getKey(), text: '日本語の宿題', done: false },
     { key: getKey(), text: 'reactを勉強する', done: false },
@@ -27,20 +27,29 @@ function Todo() {
     /* テストコード 終了 */
   ]);
 
+    function handleCheckBox(item) {
+        const newItems = [...items];
+        const index = items.indexOf(item);
+        newItems[index] = {...newItems[index]};
+        newItems[index].done = !newItems[index].done;
+        putItems(newItems);
+    }
+
   return (
     <div className="panel">
-      <div className="panel-heading">
-        ITSS ToDoアプリ
-      </div>
-      {items.map(item => (
-        <TodoItem
-            key={item.key}
-            item={item}
-        />
-      ))}
-      <div className="panel-block">
-        {items.length} items
-      </div>
+        <div className="panel-heading">
+            ITSS ToDoアプリ
+        </div>
+        {items.map(item => (
+            <TodoItem
+                key={item.key}
+                item={item}
+                handleCheckBox={()=>handleCheckBox(item)}
+            />
+        ))}
+        <div className="panel-block">
+            {items.length} items
+        </div>
     </div>
   );
 }
