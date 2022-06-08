@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {getKey} from "../lib/util";
 
 /*
   【inputコンポーネント】
