@@ -1,6 +1,7 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import {doc, collection, getDocs, addDoc, updateDoc, deleteDoc} from 'firebase/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBJr6jr6QbLTA5IkJ_JpvklRVeOBqbdR9U",
@@ -12,3 +13,48 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
+
+const db = firebase.firestore();
+export default firebase;
+
+export const getFbItems = async () => {
+    try {
+        const snapshot = await getDocs(collection(db, 'todos'));
+        let items = [];
+        snapshot.forEach(doc => {
+            items.push({...doc.data(), id: doc.id});
+        });
+        return items;
+    }
+    catch (ex){
+        console.log(ex);
+        return [];
+    }
+}
+
+export const addFbItems = async (item) => {
+    try {
+        await addDoc(collection(db, 'todos'), item);
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
+
+export const updateFbItems = async (item, id) => {
+  try {
+      const todoRef = doc(db, 'todos', id);
+      await updateDoc(todoRef, item);
+  }
+  catch (e) {
+      console.log(e);
+  }
+}
+
+export const deleteFbItems = async (item) => {
+    await deleteDoc(doc(db, "todos", item.id))
+        .then(function () {})
+        .catch(function (ex) {
+            console.log(ex);
+        });
+};
