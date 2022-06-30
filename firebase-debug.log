@@ -384,3 +384,810 @@ You're about to initialize a Firebase project in this directory:
 [info] 
 [info] Project Console: https://console.firebase.google.com/project/itss-firebase-217d0/overview
 [info] Hosting URL: https://itss-firebase-217d0.web.app
+[debug] [2022-06-30T05:02:15.772Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:02:15.775Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-06-30T05:02:15.775Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:02:15.776Z] Platform:      win32
+[debug] [2022-06-30T05:02:15.776Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:02:15.782Z] Time:          Thu Jun 30 2022 12:02:15 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:02:15.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:02:15.842Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:02:15.844Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:02:20.143Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:02:20.147Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:02:20.805Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:02:20.806Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-06-30T05:02:49.795Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:02:49.938Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:02:49.939Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:03:28.389Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:03:28.391Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-30T05:03:28.392Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:03:28.392Z] Platform:      win32
+[debug] [2022-06-30T05:03:28.392Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:03:28.393Z] Time:          Thu Jun 30 2022 12:03:28 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:03:28.393Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:03:28.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:03:28.455Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:03:28.456Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:03:28.459Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:03:28.459Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:03:29.447Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:03:29.447Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:03:29.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:03:29.790Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:03:29.790Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'itss-firebase-217d0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-30T05:03:29.793Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:03:30.125Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:03:30.125Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:03:30.129Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions [none]
+[debug] [2022-06-30T05:03:30.129Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-30T05:03:31.936Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions 200
+[debug] [2022-06-30T05:03:31.936Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[itss-firebase-217d0]: beginning deploy... 
+[info] i  hosting[itss-firebase-217d0]: found 7 files in public 
+[debug] [2022-06-30T05:03:31.944Z] [hosting] uploading with 200 concurrency
+[debug] [2022-06-30T05:03:31.956Z] [hosting] hash cache [cHVibGlj] stored for 7 files
+[debug] [2022-06-30T05:03:31.956Z] [hosting][hash queue][FINAL] {"max":9,"min":0,"avg":1.2857142857142858,"active":0,"complete":7,"success":7,"errored":0,"retried":0,"total":7,"elapsed":10}
+[debug] [2022-06-30T05:03:31.957Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9:populateFiles [none]
+[debug] [2022-06-30T05:03:31.957Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/index.html":"90178002546a37a292c06b9e5b95b1e58d794fcdc49a9ac358db20feb8045e1c","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"5c997de1364b8be939319fa9209abd77f2caf7f8844999a9e2e9173f844e7840","/robots.txt":"b2090cf9761ef60aa06e4fab97679bd43dfa5e5df073701ead5879d7c68f1ec5","/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa"}}
+[debug] [2022-06-30T05:03:33.198Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9:populateFiles 200
+[debug] [2022-06-30T05:03:33.199Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/53eaa795018415e9/files"}
+[debug] [2022-06-30T05:03:33.200Z] [hosting][populate queue][FINAL] {"max":1245,"min":1245,"avg":1245,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1245}
+[debug] [2022-06-30T05:03:33.200Z] [hosting] uploads queued: 0
+[debug] [2022-06-30T05:03:33.201Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1656565413201}
+[info] +  hosting[itss-firebase-217d0]: file upload complete 
+[debug] [2022-06-30T05:03:33.202Z] [hosting] deploy completed after 1265ms
+[debug] [2022-06-30T05:03:33.206Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "itss-firebase-217d0"
+    },
+    "site": "itss-firebase-217d0",
+    "version": "projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9"
+  }
+]
+[info] i  hosting[itss-firebase-217d0]: finalizing version... 
+[debug] [2022-06-30T05:03:33.208Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9 updateMask=status%2Cconfig
+[debug] [2022-06-30T05:03:33.208Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9 {"status":"FINALIZED","config":{}}
+[debug] [2022-06-30T05:03:34.365Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9 200
+[debug] [2022-06-30T05:03:34.366Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9 {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:03:31.824892Z","createUser":{"email":"tranhuutukkt@gmail.com"},"finalizeTime":"2022-06-30T05:03:34.888023Z","finalizeUser":{"email":"tranhuutukkt@gmail.com"}}
+[debug] [2022-06-30T05:03:34.366Z] [hosting] finalized version for itss-firebase-217d0:[object Object]
+[info] +  hosting[itss-firebase-217d0]: version finalized 
+[info] i  hosting[itss-firebase-217d0]: releasing new version... 
+[debug] [2022-06-30T05:03:34.367Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases versionName=projects%2F685926460845%2Fsites%2Fitss-firebase-217d0%2Fversions%2F53eaa795018415e9
+[debug] [2022-06-30T05:03:34.367Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"message":null}
+[debug] [2022-06-30T05:03:35.531Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases 200
+[debug] [2022-06-30T05:03:35.531Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656565415487993","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:03:31.824892Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:03:34.888023Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:03:35.487993583Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[debug] [2022-06-30T05:03:35.532Z] [hosting] release: {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656565415487993","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/53eaa795018415e9","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:03:31.824892Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:03:34.888023Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:03:35.487993583Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[info] +  hosting[itss-firebase-217d0]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/itss-firebase-217d0/overview
+[info] Hosting URL: https://itss-firebase-217d0.web.app
+[debug] [2022-06-30T05:05:33.744Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:05:33.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-06-30T05:05:33.746Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:05:33.747Z] Platform:      win32
+[debug] [2022-06-30T05:05:33.747Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:05:33.747Z] Time:          Thu Jun 30 2022 12:05:33 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:05:33.748Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as tranhuutukkt@gmail.com
+[debug] [2022-06-30T05:05:43.875Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:05:43.877Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-30T05:05:43.878Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:05:43.878Z] Platform:      win32
+[debug] [2022-06-30T05:05:43.878Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:05:43.879Z] Time:          Thu Jun 30 2022 12:05:43 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:05:43.879Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:05:43.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:05:43.937Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:06:23.647Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:06:23.649Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:06:24.160Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:06:24.160Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2022-06-30T05:07:39.427Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:07:39.550Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:07:39.550Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:07:54.131Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:07:54.133Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-30T05:07:54.133Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:07:54.134Z] Platform:      win32
+[debug] [2022-06-30T05:07:54.134Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:07:54.134Z] Time:          Thu Jun 30 2022 12:07:54 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:07:54.135Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:07:54.194Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:07:54.196Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:07:54.197Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:07:54.199Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:07:54.199Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:07:55.156Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:07:55.157Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:07:55.158Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:07:55.496Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:07:55.497Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'itss-firebase-217d0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-30T05:07:55.501Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:07:55.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:07:55.817Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:07:55.821Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions [none]
+[debug] [2022-06-30T05:07:55.821Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-30T05:07:57.138Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions 500
+[debug] [2022-06-30T05:07:57.139Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-06-30T05:07:57.253Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
+[debug] [2022-06-30T05:08:24.645Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:08:24.647Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-30T05:08:24.647Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:08:24.647Z] Platform:      win32
+[debug] [2022-06-30T05:08:24.648Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:08:24.649Z] Time:          Thu Jun 30 2022 12:08:24 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:08:24.649Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:08:24.711Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:08:24.712Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:08:40.521Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:08:40.523Z] > refreshing access token with scopes: []
+[debug] [2022-06-30T05:08:40.525Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-06-30T05:08:40.525Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-06-30T05:08:40.707Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-06-30T05:08:40.708Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-06-30T05:08:40.722Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:08:41.108Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:08:41.108Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-06-30T05:15:18.942Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:15:18.944Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-30T05:15:18.944Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:15:18.944Z] Platform:      win32
+[debug] [2022-06-30T05:15:18.945Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:15:18.952Z] Time:          Thu Jun 30 2022 12:15:18 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:15:18.952Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:15:19.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:15:19.019Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[error] 
+[error] Error: Aborted by user.
+[debug] [2022-06-30T05:15:31.142Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:15:31.144Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-30T05:15:31.144Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:15:31.145Z] Platform:      win32
+[debug] [2022-06-30T05:15:31.145Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:15:31.146Z] Time:          Thu Jun 30 2022 12:15:31 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:15:31.146Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:15:31.206Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:15:31.207Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:15:31.207Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:15:31.210Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:15:31.210Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:15:32.229Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:15:32.230Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:15:32.232Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:15:32.597Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:15:32.598Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'itss-firebase-217d0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-30T05:15:32.600Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:15:32.955Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:15:32.956Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:15:32.960Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions [none]
+[debug] [2022-06-30T05:15:32.960Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-30T05:15:34.304Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions 500
+[debug] [2022-06-30T05:15:34.305Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"error":{"code":500,"message":"Internal error encountered.","status":"INTERNAL"}}
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2022-06-30T05:15:34.432Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500
+  }
+}
+[debug] [2022-06-30T05:16:47.981Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:16:47.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-06-30T05:16:47.983Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:16:47.983Z] Platform:      win32
+[debug] [2022-06-30T05:16:47.983Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:16:47.984Z] Time:          Thu Jun 30 2022 12:16:47 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:16:47.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:16:48.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:16:48.053Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:17:00.143Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:17:00.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:17:00.514Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:17:00.514Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2022-06-30T05:21:36.272Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:21:36.390Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:21:36.390Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:22:19.523Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:22:19.525Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-06-30T05:22:19.525Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:22:19.525Z] Platform:      win32
+[debug] [2022-06-30T05:22:19.525Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:22:19.526Z] Time:          Thu Jun 30 2022 12:22:19 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:22:19.527Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:22:19.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:22:19.588Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:22:31.136Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:22:31.138Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:22:31.504Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:22:31.505Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of build/404.html 
+[debug] [2022-06-30T05:23:06.817Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:23:06.919Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:23:06.919Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:28:50.102Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:28:50.104Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-06-30T05:28:50.104Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:28:50.105Z] Platform:      win32
+[debug] [2022-06-30T05:28:50.105Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:28:50.116Z] Time:          Thu Jun 30 2022 12:28:50 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:28:50.117Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:28:50.189Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:28:50.191Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:28:52.542Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:28:52.547Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:28:52.960Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:28:52.960Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2022-06-30T05:29:20.525Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:29:20.693Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:29:20.693Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:32:04.096Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:32:04.098Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-30T05:32:04.099Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:32:04.099Z] Platform:      win32
+[debug] [2022-06-30T05:32:04.099Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:32:04.100Z] Time:          Thu Jun 30 2022 12:32:04 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:32:04.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:32:04.158Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:32:04.160Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:32:04.160Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:32:04.163Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:32:04.163Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:32:05.159Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:32:05.160Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:32:05.162Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:32:05.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:32:05.476Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'itss-firebase-217d0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-30T05:32:05.481Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:32:05.803Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:32:05.804Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:32:05.806Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions [none]
+[debug] [2022-06-30T05:32:05.806Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-30T05:32:07.173Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions 200
+[debug] [2022-06-30T05:32:07.173Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[itss-firebase-217d0]: beginning deploy... 
+[info] i  hosting[itss-firebase-217d0]: found 19 files in build 
+[debug] [2022-06-30T05:32:07.182Z] [hosting] uploading with 200 concurrency
+[debug] [2022-06-30T05:32:07.183Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2022-06-30T05:32:07.487Z] [hosting] hash cache [YnVpbGQ] stored for 19 files
+[debug] [2022-06-30T05:32:07.488Z] [hosting][hash queue][FINAL] {"max":299,"min":24,"avg":46.21052631578947,"active":0,"complete":19,"success":19,"errored":0,"retried":0,"total":19,"elapsed":305}
+[debug] [2022-06-30T05:32:07.488Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1:populateFiles [none]
+[debug] [2022-06-30T05:32:07.489Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1:populateFiles {"files":{"/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa","/asset-manifest.json":"becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa","/index.html":"a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb","/manifest.json":"5c997de1364b8be939319fa9209abd77f2caf7f8844999a9e2e9173f844e7840","/robots.txt":"b2090cf9761ef60aa06e4fab97679bd43dfa5e5df073701ead5879d7c68f1ec5","/static/css/main.d22a1956.chunk.css":"26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49","/static/css/main.d22a1956.chunk.css.map":"19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593","/static/js/2.92d32431.chunk.js.LICENSE.txt":"80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc","/static/js/3.e9ea0aca.chunk.js":"b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa","/static/js/main.654cd839.chunk.js":"810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19","/static/js/3.e9ea0aca.chunk.js.map":"1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461","/static/js/runtime-main.f230ac8a.js":"f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9","/static/js/main.654cd839.chunk.js.map":"d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688","/static/js/runtime-main.f230ac8a.js.map":"681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/static/js/2.92d32431.chunk.js":"fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75","/static/js/2.92d32431.chunk.js.map":"a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1"}}
+[debug] [2022-06-30T05:32:08.734Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1:populateFiles 200
+[debug] [2022-06-30T05:32:08.735Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1:populateFiles {"uploadRequiredHashes":["d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688","a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1","becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa","26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49","f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9","b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa","1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461","19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593","fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75","810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19","80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc","681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94","a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files"}
+[debug] [2022-06-30T05:32:08.739Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688 [none]
+[debug] [2022-06-30T05:32:08.740Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688 [stream]
+[debug] [2022-06-30T05:32:08.742Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1 [none]
+[debug] [2022-06-30T05:32:08.742Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1 [stream]
+[debug] [2022-06-30T05:32:08.744Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa [none]
+[debug] [2022-06-30T05:32:08.744Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa [stream]
+[debug] [2022-06-30T05:32:08.746Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49 [none]
+[debug] [2022-06-30T05:32:08.746Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49 [stream]
+[debug] [2022-06-30T05:32:08.748Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9 [none]
+[debug] [2022-06-30T05:32:08.749Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9 [stream]
+[debug] [2022-06-30T05:32:08.751Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa [none]
+[debug] [2022-06-30T05:32:08.751Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa [stream]
+[debug] [2022-06-30T05:32:08.753Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461 [none]
+[debug] [2022-06-30T05:32:08.754Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461 [stream]
+[debug] [2022-06-30T05:32:08.756Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593 [none]
+[debug] [2022-06-30T05:32:08.756Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593 [stream]
+[debug] [2022-06-30T05:32:08.758Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75 [none]
+[debug] [2022-06-30T05:32:08.759Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75 [stream]
+[debug] [2022-06-30T05:32:08.761Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19 [none]
+[debug] [2022-06-30T05:32:08.761Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19 [stream]
+[debug] [2022-06-30T05:32:08.764Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc [none]
+[debug] [2022-06-30T05:32:08.765Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc [stream]
+[debug] [2022-06-30T05:32:08.767Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94 [none]
+[debug] [2022-06-30T05:32:08.767Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94 [stream]
+[debug] [2022-06-30T05:32:08.771Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb [none]
+[debug] [2022-06-30T05:32:08.772Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb [stream]
+[debug] [2022-06-30T05:32:08.774Z] [hosting][populate queue][FINAL] {"max":1253,"min":1253,"avg":1253,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1288}
+[debug] [2022-06-30T05:32:08.774Z] [hosting] uploads queued: 13
+[debug] [2022-06-30T05:32:10.002Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49 200
+[debug] [2022-06-30T05:32:10.002Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49 [stream]
+[debug] [2022-06-30T05:32:10.074Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94 200
+[debug] [2022-06-30T05:32:10.074Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94 [stream]
+[debug] [2022-06-30T05:32:10.077Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9 200
+[debug] [2022-06-30T05:32:10.077Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9 [stream]
+[debug] [2022-06-30T05:32:10.126Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa 200
+[debug] [2022-06-30T05:32:10.127Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa [stream]
+[debug] [2022-06-30T05:32:10.140Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19 200
+[debug] [2022-06-30T05:32:10.141Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19 [stream]
+[debug] [2022-06-30T05:32:10.437Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1 200
+[debug] [2022-06-30T05:32:10.437Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1 [stream]
+[debug] [2022-06-30T05:32:10.702Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75 200
+[debug] [2022-06-30T05:32:10.703Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75 [stream]
+[debug] [2022-06-30T05:32:10.926Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa 200
+[debug] [2022-06-30T05:32:10.928Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa [stream]
+[debug] [2022-06-30T05:32:10.933Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc 200
+[debug] [2022-06-30T05:32:10.933Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc [stream]
+[debug] [2022-06-30T05:32:10.934Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461 200
+[debug] [2022-06-30T05:32:10.935Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461 [stream]
+[debug] [2022-06-30T05:32:10.986Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593 200
+[debug] [2022-06-30T05:32:10.986Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593 [stream]
+[debug] [2022-06-30T05:32:11.047Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688 200
+[debug] [2022-06-30T05:32:11.047Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688 [stream]
+[debug] [2022-06-30T05:32:11.068Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb 200
+[debug] [2022-06-30T05:32:11.069Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/1541c450bea07ae1/files/a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb [stream]
+[debug] [2022-06-30T05:32:11.069Z] [hosting][upload queue][FINAL] {"max":2330,"min":1266,"avg":1836.3846153846155,"active":0,"complete":13,"success":13,"errored":0,"retried":0,"total":13,"elapsed":2333}
+[info] +  hosting[itss-firebase-217d0]: file upload complete 
+[debug] [2022-06-30T05:32:11.070Z] [hosting] deploy completed after 3896ms
+[debug] [2022-06-30T05:32:11.072Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "itss-firebase-217d0"
+    },
+    "site": "itss-firebase-217d0",
+    "version": "projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1"
+  }
+]
+[info] i  hosting[itss-firebase-217d0]: finalizing version... 
+[debug] [2022-06-30T05:32:11.074Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1 updateMask=status%2Cconfig
+[debug] [2022-06-30T05:32:11.074Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1 {"status":"FINALIZED","config":{}}
+[debug] [2022-06-30T05:32:12.357Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1 200
+[debug] [2022-06-30T05:32:12.358Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1 {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:32:07.506020Z","createUser":{"email":"tranhuutukkt@gmail.com"},"finalizeTime":"2022-06-30T05:32:12.885835Z","finalizeUser":{"email":"tranhuutukkt@gmail.com"}}
+[debug] [2022-06-30T05:32:12.358Z] [hosting] finalized version for itss-firebase-217d0:[object Object]
+[info] +  hosting[itss-firebase-217d0]: version finalized 
+[info] i  hosting[itss-firebase-217d0]: releasing new version... 
+[debug] [2022-06-30T05:32:12.359Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases versionName=projects%2F685926460845%2Fsites%2Fitss-firebase-217d0%2Fversions%2F1541c450bea07ae1
+[debug] [2022-06-30T05:32:12.359Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"message":null}
+[debug] [2022-06-30T05:32:13.573Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases 200
+[debug] [2022-06-30T05:32:13.573Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656567133501203","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:32:07.506020Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:32:12.885835Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:32:13.501203756Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[debug] [2022-06-30T05:32:13.574Z] [hosting] release: {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656567133501203","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/1541c450bea07ae1","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:32:07.506020Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:32:12.885835Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:32:13.501203756Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[info] +  hosting[itss-firebase-217d0]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/itss-firebase-217d0/overview
+[info] Hosting URL: https://itss-firebase-217d0.web.app
+[debug] [2022-06-30T05:45:41.567Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:45:41.568Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2022-06-30T05:45:41.569Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:45:41.569Z] Platform:      win32
+[debug] [2022-06-30T05:45:41.569Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:45:41.577Z] Time:          Thu Jun 30 2022 12:45:41 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:45:41.577Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:45:41.640Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:45:41.641Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:45:41.642Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:45:41.645Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:45:41.646Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:45:42.658Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:45:42.659Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:45:42.660Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:45:43.011Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:45:43.012Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:46:09.454Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/itss-firebase-217d0/releases [none]
+[debug] [2022-06-30T05:46:09.455Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/itss-firebase-217d0/releases {"type":"SITE_DISABLE"}
+[debug] [2022-06-30T05:46:10.669Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/itss-firebase-217d0/releases 200
+[debug] [2022-06-30T05:46:10.670Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/itss-firebase-217d0/releases {"name":"sites/itss-firebase-217d0/releases/1656567970662687","type":"SITE_DISABLE","releaseTime":"2022-06-30T05:46:10.662687469Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[info] +  Hosting has been disabled for itss-firebase-217d0. Deploy a new version to re-enable. 
+[debug] [2022-06-30T05:46:27.436Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:46:27.438Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-06-30T05:46:27.439Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:46:27.439Z] Platform:      win32
+[debug] [2022-06-30T05:46:27.439Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:46:27.440Z] Time:          Thu Jun 30 2022 12:46:27 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:46:27.440Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:46:27.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:46:27.503Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Project\todo_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-30T05:46:31.941Z] Using project from CLI flag: itss-firebase-217d0
+[debug] [2022-06-30T05:46:31.943Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:46:32.283Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:46:32.284Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] i  Using project itss-firebase-217d0 (ITSS-firebase) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-06-30T05:47:22.477Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-06-30T05:47:22.599Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-06-30T05:47:22.599Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.8.4","browserURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.8.4/firebase.tgz"},"live":{"version":"9.8","browserURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.8.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.8.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.8.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.8.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.8.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.8.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.8.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.8.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-06-30T05:49:30.759Z] ----------------------------------------------------------------------
+[debug] [2022-06-30T05:49:30.761Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tran Tu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-30T05:49:30.761Z] CLI Version:   11.1.0
+[debug] [2022-06-30T05:49:30.762Z] Platform:      win32
+[debug] [2022-06-30T05:49:30.762Z] Node Version:  v16.13.1
+[debug] [2022-06-30T05:49:30.770Z] Time:          Thu Jun 30 2022 12:49:30 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-06-30T05:49:30.771Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-30T05:49:30.833Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-30T05:49:30.834Z] > authorizing via signed-in user (tranhuutukkt@gmail.com)
+[debug] [2022-06-30T05:49:30.835Z] [iam] checking project itss-firebase-217d0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-30T05:49:30.837Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions [none]
+[debug] [2022-06-30T05:49:30.837Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:49:31.823Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions 200
+[debug] [2022-06-30T05:49:31.823Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/itss-firebase-217d0:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-30T05:49:31.826Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:49:32.188Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:49:32.188Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'itss-firebase-217d0'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-06-30T05:49:32.191Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 [none]
+[debug] [2022-06-30T05:49:32.507Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 200
+[debug] [2022-06-30T05:49:32.507Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/itss-firebase-217d0 {"projectId":"itss-firebase-217d0","projectNumber":"685926460845","displayName":"ITSS-firebase","name":"projects/itss-firebase-217d0","resources":{"hostingSite":"itss-firebase-217d0","storageBucket":"itss-firebase-217d0.appspot.com","locationId":"asia-northeast2"},"state":"ACTIVE"}
+[debug] [2022-06-30T05:49:32.509Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions [none]
+[debug] [2022-06-30T05:49:32.509Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-06-30T05:49:33.920Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions 200
+[debug] [2022-06-30T05:49:33.921Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0","status":"CREATED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[itss-firebase-217d0]: beginning deploy... 
+[info] i  hosting[itss-firebase-217d0]: found 19 files in build 
+[debug] [2022-06-30T05:49:33.936Z] [hosting] uploading with 200 concurrency
+[debug] [2022-06-30T05:49:34.255Z] [hosting] hash cache [YnVpbGQ] stored for 19 files
+[debug] [2022-06-30T05:49:34.255Z] [hosting][hash queue][FINAL] {"max":303,"min":4,"avg":28.210526315789473,"active":0,"complete":19,"success":19,"errored":0,"retried":0,"total":19,"elapsed":310}
+[debug] [2022-06-30T05:49:34.256Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0:populateFiles [none]
+[debug] [2022-06-30T05:49:34.256Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0:populateFiles {"files":{"/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"5c997de1364b8be939319fa9209abd77f2caf7f8844999a9e2e9173f844e7840","/robots.txt":"b2090cf9761ef60aa06e4fab97679bd43dfa5e5df073701ead5879d7c68f1ec5","/asset-manifest.json":"becb7ab42659b73930895a31908006298910bce2a386313744795c4e5530fafa","/index.html":"a1e6c7210c8cee57eda0d0b62b646c6841c815a8df841793c23cfe19ce7ee2fb","/static/css/main.d22a1956.chunk.css":"26f4553c11b020ccd6b0f6097ec8ada3c12863bd9fbd5c59a3e3279d58f46a49","/static/css/main.d22a1956.chunk.css.map":"19815b1a34a196b780e41fbf0d389278e7d14c19f05d360d1fab1bce4c6b4593","/static/js/2.92d32431.chunk.js.LICENSE.txt":"80df667055fc8606a2d49ccbcbbd6cfca645e36807f279ab7a078dbfcd30d0fc","/static/js/3.e9ea0aca.chunk.js":"b065cce8d8dc804580d334bf906497b09b6281d6405f75a87f84a3cc673d54fa","/static/js/3.e9ea0aca.chunk.js.map":"1b2240f8150690354ea8419fbe8d11a8f471b2142f77db3f18f9365daf5b9461","/static/js/main.654cd839.chunk.js.map":"d564de931ddb77240de3d105a3390876eab0fa01c8a918d7e679604f821b2688","/static/js/main.654cd839.chunk.js":"810803e85ce419e4a9839943b323ac604be01dd804913971c4bbc17603823f19","/static/js/runtime-main.f230ac8a.js":"f3fe15e54346ca40538daf31d8d571600f668fc7722290acea3d3ad7280422c9","/static/js/runtime-main.f230ac8a.js.map":"681e4e0903981d60fb3c510f952ebbb7e65c4e7099b24cec8671539cfa0afa94","/static/js/2.92d32431.chunk.js":"fb2cbbaba23bfaf28b725ff4a7c05a0f318701f60495bd2c3b6cd3ef6c39ae75","/static/js/2.92d32431.chunk.js.map":"a63105de8a93cd82313b5ea339b2512aef6a6dc7b43e52de757a96b83153faf1"}}
+[debug] [2022-06-30T05:49:35.494Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0:populateFiles 200
+[debug] [2022-06-30T05:49:35.495Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/itss-firebase-217d0/versions/5d7edf8276b533e0/files"}
+[debug] [2022-06-30T05:49:35.496Z] [hosting][populate queue][FINAL] {"max":1243,"min":1243,"avg":1243,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1243}
+[debug] [2022-06-30T05:49:35.496Z] [hosting] uploads queued: 0
+[debug] [2022-06-30T05:49:35.497Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1656568175497}
+[info] +  hosting[itss-firebase-217d0]: file upload complete 
+[debug] [2022-06-30T05:49:35.498Z] [hosting] deploy completed after 1576ms
+[debug] [2022-06-30T05:49:35.503Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "itss-firebase-217d0"
+    },
+    "site": "itss-firebase-217d0",
+    "version": "projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0"
+  }
+]
+[info] i  hosting[itss-firebase-217d0]: finalizing version... 
+[debug] [2022-06-30T05:49:35.505Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0 updateMask=status%2Cconfig
+[debug] [2022-06-30T05:49:35.505Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-06-30T05:49:36.680Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0 200
+[debug] [2022-06-30T05:49:36.681Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0 {"name":"projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:49:34.211073Z","createUser":{"email":"tranhuutukkt@gmail.com"},"finalizeTime":"2022-06-30T05:49:37.230402Z","finalizeUser":{"email":"tranhuutukkt@gmail.com"}}
+[debug] [2022-06-30T05:49:36.682Z] [hosting] finalized version for itss-firebase-217d0:[object Object]
+[info] +  hosting[itss-firebase-217d0]: version finalized 
+[info] i  hosting[itss-firebase-217d0]: releasing new version... 
+[debug] [2022-06-30T05:49:36.684Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases versionName=projects%2F685926460845%2Fsites%2Fitss-firebase-217d0%2Fversions%2F5d7edf8276b533e0
+[debug] [2022-06-30T05:49:36.685Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"message":null}
+[debug] [2022-06-30T05:49:37.857Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases 200
+[debug] [2022-06-30T05:49:37.858Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/685926460845/sites/itss-firebase-217d0/releases {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656568177842918","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:49:34.211073Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:49:37.230402Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:49:37.842918636Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[debug] [2022-06-30T05:49:37.859Z] [hosting] release: {"name":"projects/685926460845/sites/itss-firebase-217d0/releases/1656568177842918","version":{"name":"projects/685926460845/sites/itss-firebase-217d0/versions/5d7edf8276b533e0","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-06-30T05:49:34.211073Z","createUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"},"finalizeTime":"2022-06-30T05:49:37.230402Z","finalizeUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}},"type":"DEPLOY","releaseTime":"2022-06-30T05:49:37.842918636Z","releaseUser":{"email":"tranhuutukkt@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AOh14GjvUe6V6VJS-je5LXHKPS2UYL08heFE4V8xVYILBg"}}
+[info] +  hosting[itss-firebase-217d0]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/itss-firebase-217d0/overview
+[info] Hosting URL: https://itss-firebase-217d0.web.app
