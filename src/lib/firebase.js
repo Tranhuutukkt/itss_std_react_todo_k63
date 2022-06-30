@@ -1,7 +1,7 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-import {doc, collection, getDocs, addDoc, updateDoc, deleteDoc} from 'firebase/firestore';
+import {doc, collection, getDocs, getDoc, addDoc, updateDoc, deleteDoc, setDoc} from 'firebase/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBJr6jr6QbLTA5IkJ_JpvklRVeOBqbdR9U",
@@ -58,3 +58,23 @@ export const deleteFbItems = async (item) => {
             console.log(ex);
         });
 };
+
+/*---User---*/
+
+export const auth = firebase.auth();
+
+export const uiConfig = {
+    signInFlow: 'popup',
+    signInSuccessUrl: '/',
+    signInOptions: [firebase.auth.GoogleAuthProvider.PROVIDER_ID],
+}
+
+export const storeUserInfo = async user => {
+    const {uid} = user;
+    const userDoc = await getDoc(doc(db, 'users', uid));
+    if (!userDoc.exists()){
+        await setDoc(doc(db, 'users', uid), {name: user.displayName});
+        return {name: user.displayName, id: uid};
+    }
+    else return {id: uid, ...userDoc.data()};
+}
