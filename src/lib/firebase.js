@@ -2,6 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import {doc, collection, getDocs, getDoc, addDoc, updateDoc, deleteDoc, setDoc} from 'firebase/firestore';
+import {getStorage, ref, uploadBytesResumable, getDownloadURL} from 'firebase/storage';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBJr6jr6QbLTA5IkJ_JpvklRVeOBqbdR9U",
@@ -77,4 +78,30 @@ export const storeUserInfo = async user => {
         return {name: user.displayName, id: uid};
     }
     else return {id: uid, ...userDoc.data()};
+}
+
+/*---Avatar---*/
+export const updateUser = async (user, image) => {
+    try {
+        const userRef = doc(db, 'users', user.id);
+        const userDoc = await getDoc(userRef);
+        if (userDoc.exists())
+            await updateDoc(userRef, {...userDoc.data(), image: image});
+    }
+    catch (e) {
+        console.log(e);
+    }
+}
+
+export const uploadImage = async (image) => {
+    const imageRef = ref(getStorage(), `/images/${image.name}`);
+    let downloadUrl = '';
+    try {
+        const upload = await uploadBytesResumable(imageRef, image);
+        downloadUrl = await getDownloadURL(upload.snapshot.ref);
+    }
+    catch (e) {
+        console.log(e);
+    }
+    return downloadUrl;
 }
